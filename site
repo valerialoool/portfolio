@@ -24,13 +24,13 @@
 
         header h1 {
             margin: 0;
-            font-weight: 500; /* обычное начертание */
+            font-weight: 500;
             font-size: 2.2rem;
         }
 
         header p {
             margin: 5px 0 0;
-            font-weight: 300; /* легкое начертание */
+            font-weight: 300;
             font-size: 1.1rem;
         }
 
@@ -42,7 +42,7 @@
 
         section {
             background-color: #fff;
-            border: 2px solid #8B1E3F; /* рамка вишневого цвета */
+            border: 2px solid #8B1E3F;
             border-radius: 12px;
             padding: 20px;
             margin-bottom: 25px;
@@ -75,14 +75,8 @@
             text-decoration: underline;
         }
 
-        img {
-            max-width: 100%;
-            border-radius: 10px;
-            margin-top: 10px;
-        }
-
         aside {
-            background-color: #f8dfe5; /* светлый оттенок вишневого */
+            background-color: #f8dfe5;
             border-left: 4px solid #8B1E3F;
             padding: 20px;
             border-radius: 10px;
@@ -143,16 +137,7 @@
 
         <section>
             <h2>Проекты</h2>
-            <article>
-                <h3>Пример дизайна баннера</h3>
-                <img src="banner-placeholder.png" alt="Пример баннера, созданного Валерией">
-                <p>Создан баннер для рекламной кампании, демонстрирующий навыки композиции и работы с цветом.</p>
-            </article>
-            <article>
-                <h3>Листовка и визитка</h3>
-                <img src="flyer-placeholder.png" alt="Пример листовки и визитки, созданных Валерией">
-                <p>Разработка визуальных материалов для печати, включая листовки и визитки.</p>
-            </article>
+            <p>Все проекты создаются с учётом маркетингового анализа и уникального торгового предложения (УТП).</p>
         </section>
 
         <aside>
