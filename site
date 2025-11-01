@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Черных Валерия — Дизайнер и Маркетолог</title>
+    <!-- Подключение шрифтов Montserrat Regular и Light -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f2; /* светлый вишневый фон */
+            color: #3e1f2b; /* темно-вишневый текст */
+        }
+
+        header, footer {
+            background-color: #8B1E3F; /* насыщенный вишневый */
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-weight: 500; /* обычное начертание */
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-weight: 300; /* легкое начертание */
+            font-size: 1.1rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 25px auto;
+            padding: 0 15px;
+        }
+
+        section {
+            background-color: #fff;
+            border: 2px solid #8B1E3F; /* рамка вишневого цвета */
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-weight: 500;
+            margin-top: 0;
+            color: #8B1E3F;
+        }
+
+        h3 {
+            font-weight: 500;
+            margin-top: 15px;
+            color: #5C0F24;
+        }
+
+        ul {
+            list-style: disc inside;
+            padding-left: 0;
+        }
+
+        a {
+            color: #8B1E3F;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        aside {
+            background-color: #f8dfe5; /* светлый оттенок вишневого */
+            border-left: 4px solid #8B1E3F;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Стили кнопок */
+        .btn {
+            display: inline-block;
+            background-color: #8B1E3F;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 5px 0 5px;
+            border-radius: 8px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #5C0F24;
+        }
+
+        footer p {
+            margin: 0;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Черных Валерия</h1>
+        <p>Дизайнер и маркетолог, студентка 3 курса ИГУ</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>О себе</h2>
+            <p>Проживаю в Иркутске всю жизнь. Учусь на 3 курсе по специальности "Реклама и связи с общественностью" в ИГУ. Прошла множество курсов по дизайну, включая веб-дизайн на Tilda.</p>
+            <p>Мои хобби: чтение книг по психологии и вождение автомобиля.</p>
+        </section>
+
+        <section>
+            <h2>Навыки</h2>
+            <h3>Графический дизайн</h3>
+            <ul>
+                <li>Баннеры, листовки, визитки, журналы</li>
+                <li>Figma, CoralDRAW, Photoshop, Adobe Illustrator</li>
+            </ul>
+            <h3>Маркетинг</h3>
+            <ul>
+                <li>Анализ конкурентов</li>
+                <li>SEO</li>
+                <li>Разработка УТП</li>
+                <li>Создание маркетинговых стратегий</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Проекты</h2>
+            <article>
+                <h3>Пример дизайна баннера</h3>
+                <img src="banner-placeholder.png" alt="Пример баннера, созданного Валерией">
+                <p>Создан баннер для рекламной кампании, демонстрирующий навыки композиции и работы с цветом.</p>
+            </article>
+            <article>
+                <h3>Листовка и визитка</h3>
+                <img src="flyer-placeholder.png" alt="Пример листовки и визитки, созданных Валерией">
+                <p>Разработка визуальных материалов для печати, включая листовки и визитки.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Контакты</h2>
+            <a href="mailto:mmlr18@yandex.ru" class="btn">Написать на почту</a>
+            <a href="https://t.me/valleriiaaw" target="_blank" class="btn">Telegram</a>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 Черных Валерия</p>
+    </footer>
+</body>
+</html>
